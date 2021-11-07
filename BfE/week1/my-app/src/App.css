@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+.App {
+  background-color: #252462;
+  font-family: "Playfair Display", serif;
+ }
+
+.container {
+  display:grid;
+  gap: 2rem;
+  grid-template-columns: 2rem;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+@media screen and (min-width: 1000px) {
+  .container {
+      grid-template-columns: repeat(3, 500px);
+      justify-content: center;
+ }
+}
